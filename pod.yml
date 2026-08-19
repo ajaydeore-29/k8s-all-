@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cipod
+  labels:
+    app: ci
+spec:
+  containers:
+  - name: nginx-container
+    containerport: 80
+    
