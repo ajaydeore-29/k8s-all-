@@ -7,5 +7,5 @@ metadata:
 spec:
   containers:
   - name: nginx-container
-    containerport: 80
+    containerPort: 80
     
