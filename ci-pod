@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+   name: my-Pod
+   labels:
+      app: ci
+spec:
+  containers:
+     -name: nginx-cont
+      imaage: nginx:latest
+      ports:
+        - containerPort: 80
+        
